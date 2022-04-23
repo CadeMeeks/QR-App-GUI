@@ -7,7 +7,7 @@
 
 package edu.uab.wmeeks.qr_gui;
 
-/** */
+/** @author wcllm */
 public class Carrier {
   private static String t;
   private static String p;

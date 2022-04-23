@@ -45,16 +45,20 @@ public class QR_menuController implements Initializable {
   @FXML private Button helpButton;
 
 
-  /** Initializes the controller class. */
+  /** Initializes the controller class.
+	 * @param url
+	 * @param rb */
   @Override
   public void initialize(URL url, ResourceBundle rb) {
     // TODO
 
   }
 
-
-
-  public boolean isValid() {
+	/**
+	 *
+	 * @return
+	 */
+	public boolean isValid() {
     // regular expression test does not like to be fed a null url
 		url = urlField.getText();
     if (url == null) {
@@ -76,7 +80,11 @@ public class QR_menuController implements Initializable {
     return m.matches();
   }
 
-  public void generate() throws Exception {
+	/**
+	 *
+	 * @throws Exception
+	 */
+	public void generate() throws Exception {
 
 
     if (isValid() == false) {
@@ -89,7 +97,8 @@ public class QR_menuController implements Initializable {
   }
 
 
-  /** @param args the command line arguments */
+  /**
+	 * @param item */
   //  public static void main(String[] args) throws WriterException, IOException, NotFoundException
   // {
 
@@ -130,12 +139,20 @@ public class QR_menuController implements Initializable {
     }
   }
 
-  public void help() throws Exception {
+	/**
+	 *
+	 * @throws Exception
+	 */
+	public void help() throws Exception {
 
     App.setRoot("QR_help");
   }
 
-  public void gallery() throws Exception {
+	/**
+	 *
+	 * @throws Exception
+	 */
+	public void gallery() throws Exception {
 
     App.setRoot("QR_gallery");
   }

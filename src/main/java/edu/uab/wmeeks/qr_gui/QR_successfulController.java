@@ -34,7 +34,12 @@ public class QR_successfulController implements Initializable {
   @FXML private TextField urlField;
   @FXML private ImageView imageView;
 
-  /** Initializes the controller class. */
+  /**
+   * Initializes the controller class.
+   *
+   * @param url
+   * @param rb
+   */
   @Override
   public void initialize(URL url, ResourceBundle rb) {
     // TODO

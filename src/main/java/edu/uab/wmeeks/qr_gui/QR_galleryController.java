@@ -18,7 +18,12 @@ import javafx.fxml.FXML;
  */
 public class QR_galleryController implements Initializable {
 
-  /** Initializes the controller class. */
+  /**
+   * Initializes the controller class.
+   *
+   * @param url
+   * @param rb
+   */
   @Override
   public void initialize(URL url, ResourceBundle rb) {}
 

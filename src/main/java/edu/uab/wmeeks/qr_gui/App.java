@@ -22,10 +22,15 @@ public class App extends Application {
     stage.show();
   }
 
+  /**
+   * @param fxml
+   * @throws IOException
+   */
   public static void setRoot(String fxml) throws IOException {
     scene.setRoot(loadFXML(fxml));
   }
 
+  /** @return */
   protected static Stage getStage() {
     return stage;
   }
@@ -35,6 +40,7 @@ public class App extends Application {
     return fxmlLoader.load();
   }
 
+  /** @param args */
   public static void main(String[] args) {
     launch();
   }

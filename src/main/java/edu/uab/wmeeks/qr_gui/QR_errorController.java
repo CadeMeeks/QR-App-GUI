@@ -19,7 +19,12 @@ import javafx.fxml.Initializable;
  */
 public class QR_errorController implements Initializable {
 
-  /** Initializes the controller class. */
+  /**
+   * Initializes the controller class.
+   *
+   * @param url
+   * @param rb
+   */
   @Override
   public void initialize(URL url, ResourceBundle rb) {
     // TODO

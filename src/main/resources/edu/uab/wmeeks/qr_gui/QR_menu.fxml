@@ -27,9 +27,9 @@
         </Label>
         <TextField fx:id="urlField" prefHeight="25.0" prefWidth="214.0" text="https://" />
         <Accordion />
-        <Button onAction="#generate" prefHeight="72.0" prefWidth="225.0" text="Generate QR Code" wrapText="true">
+        <Button onAction="#generate" prefHeight="72.0" prefWidth="263.0" text="Generate QR Code" wrapText="true">
             <font>
-                <Font size="24.0" />
+                <Font size="18.0" />
             </font>
         </Button>
         <Button mnemonicParsing="false" onAction="#gallery" prefHeight="42.0" prefWidth="172.0" text="Gallery">
